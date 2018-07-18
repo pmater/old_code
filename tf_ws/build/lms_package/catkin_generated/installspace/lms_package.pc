@@ -1,0 +1,8 @@
+prefix=/home/calvon/tf_ws/install
+
+Name: lms_package
+Description: Description of lms_package
+Version: 0.0.0
+Cflags: -I/home/calvon/tf_ws/install/include
+Libs: -L/home/calvon/tf_ws/install/lib 
+Requires: roscpp rospy std_msgs sensor_msgs tf geometry_msgs message_runtime laser_geometry

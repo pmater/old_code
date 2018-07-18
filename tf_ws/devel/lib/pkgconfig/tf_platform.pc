@@ -1,0 +1,8 @@
+prefix=/home/calvon/tf_ws/devel
+
+Name: tf_platform
+Description: Description of tf_platform
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/calvon/tf_ws/devel/lib 
+Requires: roscpp rospy sensor_msgs std_msgs geometry_msgs tf

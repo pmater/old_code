@@ -1,0 +1,10 @@
+<launch>
+   
+    <node pkg="lms_package" type="lms_publish" name="lms_publish" />
+    <node pkg="gps_package" type="gps_pub" name="gps_pub"/>
+    <node pkg="tf_platform" type="tf_broadcaster" name="tf_broadcaster"/>
+    <node pkg="sync_package" type="synchroniser" name="synchroniser" output="screen"/>
+    <node pkg="lms_package" type="pointcloud" name="pointcloud"/>
+
+</launch>
+

@@ -1,0 +1,2 @@
+gps_package:lms_package:sync_package:tf_platform
+-DCATKIN_DEVEL_PREFIX=/home/calvon/tf_ws/devel -DCMAKE_INSTALL_PREFIX=/home/calvon/tf_ws/install -G Unix Makefiles

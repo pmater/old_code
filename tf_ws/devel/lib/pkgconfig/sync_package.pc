@@ -1,0 +1,8 @@
+prefix=/home/calvon/tf_ws/devel
+
+Name: sync_package
+Description: Description of sync_package
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/calvon/tf_ws/devel/lib 
+Requires: geometry_msgs roscpp sensor_msgs std_msgs tf
